@@ -11,30 +11,6 @@ html {
 }
 
 /* -----------------------------------
-   Botão de WhatsApp Flutuante
------------------------------------ */
-.whatsapp-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #25d366;
-    border-radius: 50%;
-    padding: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-    transition: transform 0.3s ease-in-out;
-}
-
-.whatsapp-button img {
-    width: 32px;
-    height: 32px;
-}
-
-.whatsapp-button:hover {
-    transform: scale(1.1); /* Aumenta o botão um pouco ao passar o mouse */
-}
-
-/* -----------------------------------
    Cabeçalho e Menu
 ----------------------------------- */
 body {
@@ -446,4 +422,28 @@ button:hover {
 
 .social-icons a:hover img {
     filter: grayscale(0);
+}
+
+/* -----------------------------------
+   Botão de WhatsApp Flutuante
+----------------------------------- */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-button img {
+    width: 32px;
+    height: 32px;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1); /* Aumenta o botão um pouco ao passar o mouse */
 }
